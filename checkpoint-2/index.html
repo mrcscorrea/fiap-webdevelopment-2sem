@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkpoint 2 - Web Dev</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <p class="flex items-center justify-center font-sans text-xl font-bold">Sua Pontuação</p>
+    <div class="flex items-center justify-center py-80">    
+        <span id="counter" class="text-4xl font-bold mx-4">0</span>
+        <div>
+            <div>
+                <button onclick="decrement()" class="flex justify-center font-mono items-center w-80 h-10 rounded-full text-white focus:outline-none bg-gray-400 hover:bg-gray-500">
+                Retirar pontos
+                </button>
+                <div class="py-2"></div>
+                <button onclick="increment()" class="flex justify-center items-center font-mono w-80 h-10 rounded-full text-white focus:outline-none bg-indigo-500 hover:bg-indigo-600">
+                    Aumentar pontos
+                </button>
+            </div>
+        </div>
+   <script src="js/script.js"></script>
+</body>
+</html>
